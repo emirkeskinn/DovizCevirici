@@ -13,6 +13,7 @@
 		F8D74A7E27EB963B00CE35A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D74A7C27EB963B00CE35A0 /* Main.storyboard */; };
 		F8D74A8027EB964B00CE35A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8D74A7F27EB964B00CE35A0 /* Assets.xcassets */; };
 		F8D74A8327EB964B00CE35A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8D74A8127EB964B00CE35A0 /* LaunchScreen.storyboard */; };
+		F8D74A8B27ECF30100CE35A0 /* MViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8D74A8A27ECF30000CE35A0 /* MViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F8D74A7F27EB964B00CE35A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8D74A8227EB964B00CE35A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8D74A8427EB964B00CE35A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8D74A8A27ECF30000CE35A0 /* MViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				F8D74A7627EB963B00CE35A0 /* AppDelegate.swift */,
 				F8D74A7827EB963B00CE35A0 /* SceneDelegate.swift */,
 				F8D74A7A27EB963B00CE35A0 /* ViewController.swift */,
+				F8D74A8A27ECF30000CE35A0 /* MViewController.swift */,
 				F8D74A7C27EB963B00CE35A0 /* Main.storyboard */,
 				F8D74A7F27EB964B00CE35A0 /* Assets.xcassets */,
 				F8D74A8127EB964B00CE35A0 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8D74A8B27ECF30100CE35A0 /* MViewController.swift in Sources */,
 				F8D74A7B27EB963B00CE35A0 /* ViewController.swift in Sources */,
 				F8D74A7727EB963B00CE35A0 /* AppDelegate.swift in Sources */,
 				F8D74A7927EB963B00CE35A0 /* SceneDelegate.swift in Sources */,

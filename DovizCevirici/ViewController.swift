@@ -8,12 +8,21 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+ 
+    @IBOutlet weak var showButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        showButton.layer.cornerRadius = 16
     }
 
-
+    
+        
+    @IBAction func showClicked(_ sender: Any) {
+     
+    }
+    
+      
 }
 
